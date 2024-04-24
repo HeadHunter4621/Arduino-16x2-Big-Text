@@ -1,10 +1,8 @@
 #include <LiquidCrystal.h>
 
-// initialize the library by associating any needed LCD interface pin with the arduino pin number it is connected to
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
-//Set custom characters
 byte a[8] = { B11111, B11111, B11111, B11111, B11100, B11100, B11100, B11100 };
 byte b[8] = { B11111, B11111, B11111, B11111, B00111, B00111, B00111, B00111 };
 byte c[8] = { B11100, B11100, B11100, B11100, B11100, B11100, B11100, B11100 };
@@ -529,12 +527,7 @@ void setup() {
   printBigA();
   printBigA();
   
-
-  // Repeat for other custom characters if needed
 }
 
 void loop() {
-  // set the cursor to column 0, line 1
-  // (note: line 1 is the second row, since counting begins with 0):
-  // print the number of seconds since reset:
 }

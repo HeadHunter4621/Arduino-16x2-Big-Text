@@ -598,12 +598,11 @@ void setup() {
   lcd.createChar(5, g);
   lcd.createChar(7, h);
 
-  printBigU();
-  printBigV();
-  printBigW();
-  printBigX();
-  printBigY();
-  printBigZ();
+  printBigH();
+  printBigE();
+  printBigL();
+  printBigL();
+  printBigO();
 
 }
 
